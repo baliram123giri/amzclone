@@ -1,0 +1,201 @@
+ /* * means all element */
+ * {
+   padding: 0;
+   margin: 0;
+ }
+
+ header {
+   color: white;
+ }
+
+ header .header-container {
+   height: 50%;
+   /* 50px */
+   display: flex;
+   justify-content: space-between;
+ }
+
+ header .header-container.top {
+   padding: 10px;
+ }
+
+ header .logo {
+   display: flex;
+   gap: 10px;
+   width: 25%;
+ }
+
+ header .logo .location {
+   display: flex;
+   align-items: center;
+   gap: 5px;
+ }
+
+ header .search {
+   width: 48%;
+   background: red;
+   display: flex;
+   background: white;
+   border-radius: 6px;
+ }
+
+ header .search select {
+   padding: 0px 5px;
+   background: #d4d4d4;
+   border-top-left-radius: 6px;
+   border-bottom-left-radius: 6px;
+   border: none;
+ }
+
+ header .search select:focus {
+   outline: none;
+ }
+
+ header .search input {
+   padding: 0 10px;
+   flex: 1;
+   border: none;
+ }
+
+ header .search input:focus {
+   outline: none;
+ }
+
+ header .search button {
+   flex: 0.1;
+   background: #febd69;
+   height: 100%;
+   border: none;
+   border-top-right-radius: 6px;
+   border-bottom-right-radius: 6px;
+   font-size: 20px;
+   cursor: pointer;
+ }
+
+ header .tools {
+   width: 25%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+
+ header .tools .lang {
+   border: 1px solid white;
+   width: 60px;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 25px;
+   cursor: pointer;
+   position: relative;
+ }
+
+ header .tools .lang .lang-tips {
+   background: white;
+   color: #000000;
+   min-height: 130px;
+   position: absolute;
+   min-width: 100px;
+   top: 100%;
+   left: 0;
+   font-size: 14px;
+   padding: 10px;
+   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+   visibility: hidden;
+   transform: translateY(20px);
+   transition: 0.5s transform, 0.5s opacity;
+   opacity: 0.5;
+ }
+
+ header .tools .lang:hover .lang-tips {
+   visibility: visible;
+   transform: translateY(0);
+   opacity: 1;
+ }
+
+ header .tools .sign {
+   position: relative;
+ }
+
+ header .tools .sign span {
+   font-size: 12px;
+ }
+
+ header .tools .sign h5 {
+   font-size: 16px;
+ }
+
+ header .tools .sign .content {
+   background: rgb(255, 255, 255);
+   min-width: 300px;
+   min-height: 400px;
+   padding: 15px;
+   position: absolute;
+   right: -80px;
+   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+   border-radius: 6px;
+   border: 1px solid rgba(0, 0, 0, 0.25);
+   visibility: hidden;
+ }
+
+ header .tools .sign .content .top {
+   text-align: center;
+   padding-bottom: 15px;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+ }
+
+ header .tools .sign .content .top .sign-btn {
+   background-color: #feda2a;
+   padding: 5px 60px;
+   border: none;
+   border-radius: 8px;
+   margin-bottom: 5px;
+ }
+
+ header .tools .sign .content .top span {
+   font-size: 10px;
+   color: #000101;
+ }
+
+ header .tools .sign .content .top a {
+   font-size: 10px;
+   text-decoration: none;
+ }
+
+ header .tools .sign .content .top a:hover {
+   color: orange;
+ }
+
+ header .tools .sign .content .bottom .left ol {
+   list-style: none;
+ }
+
+ header .tools .sign .content .bottom .left h4 {
+   color: #000000;
+   font-size: 20px;
+ }
+
+ header .tools .sign .content .bottom .left ol li {
+   margin-top: 10px;
+ }
+
+ header .tools .sign .content .bottom .left ol a {
+   color: rgba(0, 0, 0, 0.8);
+   text-decoration: none;
+ }
+
+ header .tools .sign:hover .content {
+   visibility: visible;
+ }
+
+ .content .bottom {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .content .bottom .left {
+   margin-top: 10px;
+   border-right: 1px solid rgba(0, 0, 0, 0.25);
+   width: 50%;
+ }
