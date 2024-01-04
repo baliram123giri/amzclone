@@ -1,13 +1,18 @@
  /* * means all element */
  * {
-   padding: 0;
-   margin: 0;
+   padding: 0px;
+   margin: 0px ;
+ }
+ p{
+  margin: 0px;
  }
 
  header {
    color: white;
  }
-
+body{
+  background: #E3E6E6 !important;
+}
  header .header-container {
    height: 50%;
    /* 50px */
@@ -22,6 +27,7 @@
  header .logo {
    display: flex;
    gap: 10px;
+   font-size: 12px;
    width: 25%;
  }
 
@@ -198,4 +204,74 @@
    margin-top: 10px;
    border-right: 1px solid rgba(0, 0, 0, 0.25);
    width: 50%;
+ }
+
+ /* Banner style start */
+ main .banner {
+   border: 1px solid red;
+   height: 90vh;
+   position: relative;
+ }
+
+ main .banner .slide {
+  height: 100%;
+
+ }
+ main .banner .slide .carousel-inner {
+   height: 100%;
+
+ }
+ main .banner .slide .carousel-inner .carousel-item{
+   height: 100%;
+ }
+ main .banner .slide .carousel-inner .carousel-item img{
+  height: 100%;
+ }
+
+ main .banner .slide  button{
+   /* background: white ; */
+   height: 300px;
+   width: 100px;
+ }
+
+ /* Products category */
+ main .banner .products-category{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+ }
+ main .banner .products-category .product-container{
+  width: 98%;
+  margin: auto ;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+ }
+ main .banner .products-category .product-container .item{
+  width: 24%;
+  background: white;
+  padding: 20px 10px;
+ }
+ main .banner .products-category .product-container .item .products{
+  display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+ }
+ main .banner .products-category .product-container .item .product{
+  width: 48%;
+  margin-top: 10px;
+ }
+ main .banner .products-category .product-container .item .product .product-img{
+   width: 155px;
+   height: 100px;
+ }
+ main .banner .products-category .product-container .item .product .product-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ }
+ main .banner .products-category .product-container .item .product p{
+  font-size: 12px;
+  font-weight: 600;
  }
