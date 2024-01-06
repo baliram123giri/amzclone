@@ -330,7 +330,7 @@
    width: 50px;
    height: 50%;
    margin: auto 0;
-   
+
    opacity: 1;
    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
  }
@@ -339,6 +339,7 @@
    border-top-right-radius: 8px;
    border-bottom-right-radius: 8px;
  }
+
  .product-deals .bottom button[data-bs-slide="next"] {
    border-top-left-radius: 8px;
    border-bottom-left-radius: 8px;
@@ -348,19 +349,22 @@
  .product-deals .bottom i {
    color: black;
  }
- .product-deals .bottom  .item .top{
+
+ .product-deals .bottom .item .top {
    background: #F7F8F8;
    width: 100%;
    height: 180px;
    padding: 20px;
    margin-bottom: 15px;
  }
- .product-deals .bottom  .item .top img{
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+
+ .product-deals .bottom .item .top img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
  }
- .product-deals .bottom  .item .bottom button{
+
+ .product-deals .bottom .item .bottom button {
    background: #CC0C39;
    color: white;
    border: none;
@@ -368,11 +372,93 @@
    padding: 5px;
    border-radius: 2px;
  }
- .product-deals .bottom  .item .bottom span{
-  font-size: 12px;
-  color: #CC0C39;
-  font-weight: 500;
+
+ .product-deals .bottom .item .bottom span {
+   font-size: 12px;
+   color: #CC0C39;
+   font-weight: 500;
  }
- .product-deals .bottom  .item .bottom p{
-  font-size: 11px;
+
+ .product-deals .bottom .item .bottom p {
+   font-size: 11px;
+ }
+
+ /*recommended*/
+ .recommended {
+   background: rgb(255, 255, 255);
+   width: 60%;
+   margin: 20px auto;
+   display: flex;
+   align-items: center;
+   padding: 10px;
+ }
+
+ .recommended .img-box {
+   width: 300px;
+   height: 200px;
+   padding: 20px;
+ }
+
+ .recommended .img-box img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+ }
+
+ .recommended .stars {
+   color: #FFC200;
+ }
+
+ .recommended button {
+   background: #CC0C39;
+   color: white;
+   border: none;
+   font-size: 12px;
+   padding: 5px;
+   border-radius: 2px;
+ }
+ .recommended p, .recommended h4{
+  font-size: 20px;
+  margin: 0;
+ }
+
+ .recommended span {
+   font-size: 12px;
+   color: #CC0C39;
+   font-weight: 500;
+ }
+ .recommended .deals{
+  margin-top: 5px;
+ }
+ .recommended .price {
+   display: flex;
+   gap: 7px;
+   margin-top: 5px;
+ }
+
+ .recommended .price h5 {
+   display: flex;
+   color: #CC0C39;
+ }
+
+ .recommended .price h6 {
+   display: flex;
+   align-self: flex-end;
+   text-decoration: line-through;
+ }
+
+ .recommended .price h5 span {
+   font-size: 14px;
+   color: #CC0C39;
+   font-weight: 400;
+ }
+
+ .recommended .price .prime-logo i {
+   font-size: 10px;
+   color: #FFC200;
+ }
+
+ .recommended .price .prime-logo span {
+   font-size: 10px;
+   color: #2292C0;
  }
